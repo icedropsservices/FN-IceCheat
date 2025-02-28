@@ -1,0 +1,51 @@
+To compile C# code like the example you provided, you would typically need the following tools:
+
+1. **Microsoft Visual Studio**: This is the most popular integrated development environment (IDE) for C#. It provides a user-friendly interface and powerful tools for compiling and debugging your code.
+
+2. **.NET SDK**: If you prefer to work from the command line, you can install the .NET SDK, which includes the command-line tools to compile and run C# applications. You can download it from the [.NET website](https://dotnet.microsoft.com/download).
+
+3. **Code Editor**: If you want a lightweight option, you can use a text editor like Visual Studio Code, which can be enhanced with C# extensions for syntax highlighting and IntelliSense.
+
+4. **Build Tools**: If you're using Visual Studio or the .NET SDK, the necessary build tools will typically be included. If you're using another setup, ensure you have the appropriate compilers installed.
+
+### Steps to Compile Using Visual Studio:
+
+1. **Install Visual Studio**:
+   - Download and install Visual Studio from the official website.
+   - During installation, ensure you select the ".NET desktop development" workload.
+
+2. **Create a New Project**:
+   - Open Visual Studio.
+   - Click on "Create a new project."
+   - Choose "Console App" and select C# as the language.
+
+3. **Copy Your Code**:
+   - Replace the auto-generated code in `Program.cs` with your code.
+
+4. **Build the Project**:
+   - Go to the "Build" menu and select "Build Solution."
+   - If there are no errors, your code will compile successfully.
+
+5. **Run the Application**:
+   - You can run your application directly from Visual Studio by pressing `F5`.
+
+### Steps to Compile Using .NET SDK:
+
+1. **Install the .NET SDK**: Download it from the [.NET website](https://dotnet.microsoft.com/download).
+
+2. **Create a New Console Application**:
+   - Open your terminal or command prompt.
+   - Run the command: `dotnet new console -n YourProjectName`
+   - Navigate to the project directory: `cd YourProjectName`
+
+3. **Add Your Code**:
+   - Open the `Program.cs` file in a text editor and replace its content with your code.
+
+4. **Build the Project**:
+   - Run the command: `dotnet build`
+
+5. **Run the Application**:
+   - Execute the command: `dotnet run`
+
+### Note:
+Make sure you have the necessary permissions and legal rights to compile and run the code you are working with, especially when it comes to game-related modifications or cheats.
